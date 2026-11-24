@@ -1,0 +1,58 @@
+:root{
+    --verdeoscuro: #081910;
+    --verdelimon: #A9ED3D;
+    --verdesuave: #34CD3F;
+    --rojo: #EE42217;
+    --blanco: #FFFFFF;
+}
+
+.inicio{
+    width: 100%;
+    height: 500px;
+    min-height: 50vh;
+    margin-top: 100px;
+    background-image: url('../elementos pagina web diseño/fondos/hero fondo.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio-content{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.inicio-content h1{
+    font-size: 100px;
+    color: var(--blanco);
+}
+
+.inicio-content h1 strong{
+    color: var(--verdelimon);
+}
+
+.inicio-content p{
+    color: var(--blanco);
+}
+
+.inicio-content button{
+    border-radius: 6px;
+    background-color: var(--verdelimon);
+    border: none;
+    height: 40px;
+    width: 20%;
+}
+
+.separador{
+    width: 100%;
+    height: 100px;
+}
+
+.separador img{
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,210 @@
+:root{
+    --verdeoscuro: #081910;
+    --verdelimon: #A9ED3D;
+    --verdesuave: #34CD3F;
+    --rojo: rgb(238, 66, 33);
+    --blanco: #FFFFFF;
+}
+
+.ods{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.apertura{
+    width: 100%;
+    min-height: 50vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+.fuga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    text-align: center;
+
+    color: var(--verdelimon);
+}
+
+.arribaapertura{
+    width: 70%;
+    padding: 30px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border-bottom: 4px solid var(--verdelimon);
+    background-color: var(--verdeoscuro);
+}
+
+
+
+.arribaapertura h3{
+    font-size: 30px;
+}
+
+.arribaapertura h3 strong{
+    color: var(--blanco);
+}
+
+.abajoapertura{
+    margin-bottom: 10%;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    background-color: var(--verdeoscuro);
+    color: var(--blanco);
+}
+
+#apertura {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--verdelimon);
+    color: var(--verdeoscuro);
+    font-size: 20px;
+
+    position: absolute;
+    bottom: -1910px;
+}
+
+#apertura:hover{
+    background-color: var(--blanco);
+    cursor: pointer;
+}
+
+/* EXPANSIÓN DE DOMINIO */
+.barrera{
+    background-color: var(--blanco);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px 50px 0px 0px;
+}
+
+.expansióndedominio{
+    width: 80%;
+
+    border-bottom: solid 3px var(--verdelimon);
+    border-radius: 50px;
+
+    display: none;
+
+    transition: 2s;
+}
+
+.expansióndedominio.activo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 20px;
+}
+
+
+.metaods{
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+
+}
+
+.how{
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ho{
+    background-color: var(--verdelimon);
+    font-size: 40px;
+    padding: 5px;
+}
+
+.w {
+    background-color: var(--verdeoscuro);
+    color: var(--blanco);
+    font-size: 40px;
+    padding: 5px;
+}
+
+.metaods img{
+    width: 200px;
+    margin-left: 10%;
+}
+
+.golpeseguro{
+    margin-top: 20%;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.divods{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    
+}
+
+.problematica-texto{
+    position: absolute; 
+    top: 80px;          
+    left: 20px;         
+    z-index: 10;        
+    color: var(--verdeoscuro);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.problematica-imagen{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Problematica{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.Reconocer{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.actuar{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+

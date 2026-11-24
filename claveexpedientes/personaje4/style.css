@@ -1,0 +1,233 @@
+:root{
+    --verdeoscuro: #081910;
+    --verdelimon: #A9ED3D;
+    --verdesuave: #34CD3F;
+    --rojo: rgb(238, 66, 33);
+    --blanco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: var(--verdeoscuro);
+}
+
+nav {
+
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+
+    margin-top: 20px;
+    margin-left: 15%;
+
+    width: 50%;
+}
+
+nav p{
+    color: var(--blanco);
+    font-size: 12px;
+}
+
+nav button{
+    border: none;
+    border: solid 2px var(--verdelimon);
+    width: 150px;
+    height: 40px;
+    background-color: var(--verdeoscuro);
+    color: var(--verdelimon);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 50%;
+
+}
+
+.complemento{
+    color: #e41f1e;
+    font-size: 10px;
+}
+
+.linea{
+
+    width: 34%;
+}
+
+.titulo{
+    color: var(--verdelimon);
+    font-size: 55px;
+}
+.linea2{
+
+    width: 34%;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 9px;
+    color: white;
+}
+.subtitulo{
+    border: solid 1px var(--verdelimon);
+    background-color: var(--verdelimon);
+    width: 60%;
+    height: 30px;
+    color: var(--verdeoscuro);
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea3{
+    width: 70%;
+
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    color: white;
+    font-size: 15px;
+
+}
+
+.foto-container{
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+
+    width: 60%;
+    height: 100%;
+
+}
+
+.foto {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 50%);
+  mask-image: linear-gradient(to right, transparent 0%, black 50%);
+}
+
+/* --- Login Card --- */
+
+
+
+.login-card {
+
+    padding: 30px;
+    width: 100%;
+    max-width: 380px;
+    border-radius: 0; /* Formas rectas estilo interfaz militar/terminal */
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+    color: var(--verdelimon); /* Verde neón suave para textos */
+    margin-left: 15%;
+}
+
+/* Título superior (ACCESS TERMINAL) */
+.login-card h2 {
+    margin-bottom: 25px;
+    color: var(--verdelimon);
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Icono de candado antes del título */
+.login-card h2::before {
+    font-size: 12px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--verdelimon); 
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Input minimalista con línea verde */
+.input-group input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--verdelimon);
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+    font-size: 16px;
+    color: var(--verdelimon);
+    font-family: inherit;
+    letter-spacing: 2px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-bottom-color: var(--verdelimon);
+}
+
+/* Estilo para el placeholder "AWAITING INPUT..." */
+.input-group input::placeholder {
+    color: var(--verdelimon);
+    font-size: 11px;
+    letter-spacing: 1.5px;
+}
+
+/* Botón verde brillante neón */
+footer button {
+    width: 100%;
+    padding: 12px;
+
+    background-color: var(--verdelimon);
+    color: var(--verdeoscuro);            
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--verdelimon);
+    box-shadow: 0 0 12px rgba(140, 255, 0, 0.4); /* Resplandor neón al pasar el mouse */
+}
+
+.error {
+    color: #ff3333;
+    font-size: 11px;
+    text-align: left;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}

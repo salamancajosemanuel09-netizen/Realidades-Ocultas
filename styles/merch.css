@@ -1,0 +1,160 @@
+:root{
+    --verdeoscuro: #081910;
+    --verdelimon: #A9ED3D;
+    --verdesuave: #34CD3F;
+    --rojo: #EE42217;
+    --blanco: #FFFFFF;
+}
+
+
+.mercha {
+    background-image: url('../elementos pagina web diseño/fondos/fondo mercha.svg');
+    background-size: cover;
+    background-position: center;
+    
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.encabezado-seccion {
+    margin-left: 10%;
+    color: var(--verdeoscuro);   
+}
+
+.etiqueta{
+    color: var(--verdelimon);
+    width: 350px;
+    padding: 5px;
+    background-color: var(--verdeoscuro);
+    border-radius: 50px;
+}
+
+.encabezado-seccion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+    color: var(--verdeoscuro);
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tarjeta-merch {
+    background: var(--verdeoscuro);
+    border-radius: 50px;
+    overflow: hidden;
+    border: none;
+}
+
+.merch-imagen {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--verdelimon);
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.merch-imagen img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.merch-info {
+    padding: 20px;
+}
+
+.merch-info h3 {
+    font-size: 1.15rem;
+    margin-bottom: 6px;
+    color: var(--verdelimon);
+}
+
+.precio {
+    color: var(--blanco);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.descripcion-producto {
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+    min-height: 40px;
+}
+
+.contador-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(169 237 61 / 20%);
+    padding-top: 12px;
+}
+
+.contador-container label {
+    font-size: 0.85rem;
+    color: var(--blanco);
+}
+
+.input-cantidad {
+    width: 60px;
+    padding: 6px;
+    background: var(--verdeoscuro);
+    border: 1px solid var(--blanco);
+    border-radius: 4px;
+    color: var(--blanco);
+    text-align: center;
+
+}
+
+.input-cantidad:focus {
+    outline: none;
+    border-color: var(--verdelimon);
+}
+
+.merch-cotizador {    
+    display: flex;
+    justify-content: center;
+}
+
+.cotizador-caja {
+    background: var(--verdeoscuro);
+    border: 1px solid var(--blanco);
+    border-radius: 8px;
+    padding: 25px 40px;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 30%);
+    color: var(--blanco);
+}
+
+.cotizador-caja h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+
+    color: var(--verdelimon);
+}
+
+.cotizador-caja p {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.total-precio {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--verdelimon);
+}
