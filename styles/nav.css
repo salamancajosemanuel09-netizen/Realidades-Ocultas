@@ -15,7 +15,6 @@
 }
 
 body{
-    width: 100%;
 
     background-color: var(--verdeoscuro);
 }
@@ -113,4 +112,81 @@ a {
 
 .indicador-scroll span:last-child {
     font-size: 1.4rem;
+}
+
+
+.menu-toggle {
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 25px;
+}
+
+@media (max-width: 900px) {
+
+    .nav {
+        width: calc(100% - 30px);
+        margin: 15px;
+        padding: 12px 5%;
+        gap: 12px;
+    }
+
+    /* Botón hamburguesa */
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-toggle img {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* Menú desplegable cerrado */
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 12px);
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        padding: 20px;
+        background: var(--verdeoscuro);
+        border: 3px solid var(--verdelimon);
+        border-radius: 10px;
+    }
+
+    /* Menú desplegable abierto */
+    .nav.menu-open .nav-menu {
+        display: flex;
+    }
+
+    .nav-enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 18px;
+    }
+
+    .nav-enlaces a {
+        padding: 8px 0;
+    }
+
+    .boton-explorar {
+        display: inline-block;
+        text-align: center;
+    }
 }

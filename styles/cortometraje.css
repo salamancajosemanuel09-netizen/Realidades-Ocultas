@@ -8,7 +8,7 @@
 
 .cortometraje{
     width: 100%;
-    min-height: 100vh;
+
     background-image: url('../elementos pagina web diseño/fondos/cortometraje fondo-100.jpg');
     background-size: cover;
     background-position: center;
@@ -56,7 +56,7 @@
 .dequevaestamondaa{
     padding: 5px;
     background-color: var(--verdeoscuro);
-    width: 800px;
+    width: 30%;
     height: 310px;
     border-radius: 5px;
 
@@ -84,5 +84,5 @@
 
 
 video{
-    width: 600px;
+    width: 50%;
 }
