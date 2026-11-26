@@ -153,7 +153,6 @@ a {
         height: 32px;
     }
 
-    /* Menú desplegable cerrado */
     .nav-menu {
         display: none;
         position: absolute;
@@ -169,7 +168,6 @@ a {
         border-radius: 10px;
     }
 
-    /* Menú desplegable abierto */
     .nav.menu-open .nav-menu {
         display: flex;
     }

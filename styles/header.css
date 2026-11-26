@@ -44,7 +44,7 @@
     background-color: var(--verdelimon);
     border: none;
     height: 40px;
-    width: 20%;
+    padding: 10px;
 }
 
 .separador{
@@ -58,11 +58,13 @@
 }
 
 @media (max-width: 900px) {
+
+
     
     .inicio-content h1{
         
         font-size: 80px;
-
+    
     }
 
     .inicio-content button{

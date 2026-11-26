@@ -86,3 +86,21 @@
 .character div a{
     color: var(--verdelimon);
 }
+
+@media (max-width: 900px) {
+    
+    .personajestodos{
+        flex-direction: column;
+    }
+
+    .character{
+
+        width: 100%;
+
+        flex-direction: row;
+    }
+
+    .character div{
+        width: 100%;
+    }
+}

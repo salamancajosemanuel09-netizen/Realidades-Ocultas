@@ -86,3 +86,22 @@
 video{
     width: 50%;
 }
+
+@media (max-width: 900px) {
+    .infocortodos{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infocortodos video{
+        width: 500px;
+    }
+
+    .dequevaestamondaa{
+        width: 600px;
+        gap: 40px;
+        align-items: center;
+        
+    }
+}

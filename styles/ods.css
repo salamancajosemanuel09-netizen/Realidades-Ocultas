@@ -79,7 +79,7 @@
     font-size: 20px;
 
     position: absolute;
-    bottom: -1910px;
+    bottom: -1710px;
 }
 
 #apertura:hover{
@@ -186,7 +186,7 @@
 
 .problematica-imagen{
     width: 100%;
-    height: auto;
+
     display: block;
 }
 
@@ -208,3 +208,18 @@
     z-index: 3;
 }
 
+
+
+@media (max-width: 900px) {
+    
+    #apertura{
+        position: absolute;
+        bottom: -2650px;
+    } 
+
+    .metaods{
+        margin-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+}
