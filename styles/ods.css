@@ -25,6 +25,9 @@
     justify-content: center;
     gap: 40px;
     padding: 30px;
+
+    position: relative;
+
 }
 .fuga{
     display: flex;
@@ -79,9 +82,9 @@
     font-size: 20px;
 
     position: absolute;
-    bottom: -1710px;
+    bottom: 50%;
+    transform: translateY(50%);
 }
-
 #apertura:hover{
     background-color: var(--blanco);
     cursor: pointer;
@@ -212,10 +215,6 @@
 
 @media (max-width: 900px) {
     
-    #apertura{
-        position: absolute;
-        bottom: -2650px;
-    } 
 
     .metaods{
         margin-top: 40px;
@@ -226,10 +225,6 @@
 
 @media (max-width: 600px) {
 
-    #apertura{
-        position: absolute;
-        bottom: -2270px;
-    } 
 
         .how{
         display: flex;

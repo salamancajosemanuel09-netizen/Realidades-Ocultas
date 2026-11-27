@@ -83,6 +83,11 @@
     color: var(--blanco);
 }
 
+.chcuatro{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .character div a{
     color: var(--verdelimon);
 }
@@ -91,6 +96,8 @@
     
     .personajestodos{
         flex-direction: column;
+
+        gap: 20px;
     }
 
     .character{
@@ -103,4 +110,12 @@
     .character div{
         width: 100%;
     }
+}
+
+@media (max-width: 600px) {
+
+    .character div{
+        height: 155px;
+    }
+    
 }
