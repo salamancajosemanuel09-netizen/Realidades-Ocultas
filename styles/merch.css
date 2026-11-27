@@ -93,6 +93,8 @@
     font-size: 0.85rem;
     margin-bottom: 16px;
     min-height: 40px;
+
+    color: var(--blanco);
 }
 
 .contador-container {

@@ -223,3 +223,34 @@
     }
 
 }
+
+@media (max-width: 600px) {
+
+    #apertura{
+        position: absolute;
+        bottom: -2270px;
+    } 
+
+        .how{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    .how h2{
+        font-size: 20px;
+
+        width: 70%;
+    }
+
+    .ho{
+        width: 50%;
+    }
+
+    .w{
+        width: 10%;
+    }
+
+}
